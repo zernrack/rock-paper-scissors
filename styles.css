@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+body {
+  background-color: #282a3a;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+
+  font-family: "Bakbak One", cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: beige;
+}
+s
+.selections {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 100ms;
+}
+
+.selection:hover {
+  transform: scale(1.2);
+}
