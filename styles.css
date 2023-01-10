@@ -36,10 +36,10 @@ body {
 }
 
 .results {
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2.5in);
   justify-items: center;
   align-items: center;
   color: rgb(255, 255, 255);
